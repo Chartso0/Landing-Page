@@ -1,1 +1,2 @@
 # Landing-Page
+In this project, I built a responsive landing page using HTML and CSS based on a provided design. The goal was to recreate the layout as closely as possible while practicing Flexbox for positioning, spacing, and alignment. This project helped reinforce core concepts such as structuring HTML, using semantic elements, applying consistent styling, and building a clean, visually balanced layout without JavaScript.
