@@ -12,12 +12,15 @@ body {
 
 .first-section {
     background-color: #1f2937;
+    padding-bottom: 100px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #header-logo {
     font-size: 24px;
@@ -42,33 +45,47 @@ h1 {
     font-weight: 900;
 }
 
-
 .content {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 100px 50px;
     align-items: center;
 }
 
-.sign-up-first-section {
-  background-color: #3882F6;
-  border-radius: 20%;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  gap: 20px;
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 .content-right img {
     width: 600px; 
-    height: auto;
-    gap: 30px;
+    height: auto; 
 }
-/* Information Section */
-.information {
-    display: flex;
 
+.p-first {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sign-up-first-section {
+    background-color: #3882F8;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #3882F8;
+    border-radius: 8px;
+    cursor: pointer;
 }
