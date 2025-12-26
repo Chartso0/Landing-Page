@@ -89,3 +89,47 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
 }
+/*Second Section */
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.rows-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 100px;
+    align-items: flex-start;
+}
+
+.box-blue-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.box-blue {
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
