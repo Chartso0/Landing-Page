@@ -133,3 +133,79 @@ h2 {
     font-size: 18px;
     color: #1F2937;
 }
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.p-third {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #1F2937;
+}
+
+.last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.last-p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.btn-last-div {
+    background-color: #3882F6;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-last-div:hover {
+    background-color: white;
+    color: #3882F6;
+}
